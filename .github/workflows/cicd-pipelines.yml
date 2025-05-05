@@ -25,4 +25,10 @@ jobs:
           script: |
             echo "Deploying to production server..."
 
+            cd /home/Agile
+            echo "Berhasil masuk ke folder Agile"
+
+            docker compose up -d #menjalankan docker compose di server
+            echo "Berhasil menjalankan docker compose di server"  
+
 # TEst RunAdbidgida dhuiahda
