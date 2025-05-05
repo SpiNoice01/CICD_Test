@@ -17,9 +17,15 @@ jobs:
       - name: Deploy to Production via SSH
         uses: appleboy/ssh-action@v1
         with:
+<<<<<<< HEAD
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
+=======
+          host: "20.49.49.79"
+          username: "Agile"
+          password: "Agilpermana72"
+>>>>>>> 63d5b40fd03b0db49a484fa4e111f77da7425a01
           # Uncomment if your SSH port is different
           # port: 22
           script: |
